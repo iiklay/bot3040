@@ -85,6 +85,18 @@ message.channel.send('** يجب ان يكون لديك برمشن ،"MANAGE_ROLE
 }
 }
 });
+
+client.on('message', function(message) {
+    if(!message.channel.guild) return;
+if(message.content ===  '%color 100') {
+if(message.member.hasPermission('MANAGE_ROLES')) {
+setInterval(function(){})
+message.channel.send('سيتم عمل الالوان انتظر ...')//Narox
+}else{
+message.channel.send('** يجب ان يكون لديك برمشن ،"MANAGE_ROLES" ❌**')
+}
+}
+});
 //Narox
 client.on('message', message=>{
 if (message.content ===  '-color 100'){
