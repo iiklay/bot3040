@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const devs = [''525375324863594496];
+const devs = ['525375324863594496'];
 const fs = require('fs');
 const stripIndents = require('common-tags').stripIndents;
 const child_process = require("child_process");
