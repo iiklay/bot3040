@@ -31,3 +31,6 @@ client.user.setGame(` اكتب اي شي هنا  `,"http://twitch.tv/S-F")
 
 
 
+
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
